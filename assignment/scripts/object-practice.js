@@ -41,7 +41,8 @@ console.log(me.favThreeFoods.pop());
   - Console.log your updated shoe count. 
 */
 console.log('Current shoe count:', me.shoeCount);
-console.log('Added new pair of shoe:', me.shoeCount+1);
+me.shoeCount = 5;
+console.log('Added new pair of shoe:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -49,3 +50,5 @@ console.log('Added new pair of shoe:', me.shoeCount+1);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'maroon';
+console.log(me);
